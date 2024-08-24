@@ -1,0 +1,118 @@
+.details-container {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  /* margin: 20px; */
+}
+
+.details-container .nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed !important;
+  width: 100vw;
+}
+
+.backdrop-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.backdrop-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+/* .backdrop-info {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+} */
+
+.backdrop-info h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.backdrop-info p {
+  font-size: 1.2em;
+  max-width: 600px;
+}
+
+.tv-show-details {
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+
+.tv-show-details h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.tv-show-details p {
+  margin: 5px 0;
+}
+
+.tv-show-details strong {
+  font-weight: bold;
+}
+
+.trailer-container {
+  margin-top: 20px;
+}
+
+.play-trailer-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.play-trailer-button:hover {
+  background-color: #0056b3;
+}
+
+/* Modal styles */
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.ReactModal__Content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.close-modal-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #ff4b5c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-modal-button:hover {
+  background-color: #d32f2f;
+}

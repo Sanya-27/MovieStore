@@ -1,0 +1,59 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+.switchbutton {
+  display: flex;
+  justify-content: center;
+  padding: 10px 11px;
+  border: 0.1px solid rgb(255, 255, 255);
+  border-radius: 19px;
+  cursor: pointer;
+  background-color: #000000;
+  box-shadow: 1px 1px 10px white;
+  color: #f8f3f3;
+  font-size: 16px;
+}
+
+.movie-heading {
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+}
+
+.category-toggle-search {
+  background-color: black;
+  text-align: center;
+  gap: 50px;
+  margin-top: 5rem;
+
+  /* margin-top: 40px; */
+}
+
+.Movies,
+.TV {
+  padding: 5px 10px;
+}
+
+.Movies.active {
+  background-color: #ff4b5c;
+  border-radius: 19px;
+
+  color: #fff;
+}
+
+.TV.active {
+  background-color: #374554;
+  border-radius: 19px;
+
+  color: #fff;
+}
+
+.search-wrapper {
+  position: absolute;
+  background-color: black;
+}

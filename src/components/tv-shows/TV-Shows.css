@@ -1,0 +1,120 @@
+.tv-container {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+.tv-container .nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed !important;
+  width: 100vw;
+  /* backdrop-filter: blur(8px); */
+}
+
+.backdrop-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.backdrop-image {
+  width: 100%;
+  height: 80vh !important;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.backdrop-info h1 {
+  font-size: 2em;
+}
+
+.backdrop-info p {
+  font-size: 1.2em;
+  max-width: 600px;
+}
+
+.tv-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tv-card {
+  box-shadow: 1px 1px 15px white;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 2rem;
+  width: 18rem;
+  color: white;
+  height: 26rem;
+  text-align: center;
+  background-color: #000000;
+}
+
+.tv-poster {
+  border-radius: 8px;
+  object-fit: fill;
+
+  height: 11rem;
+  width: 100%;
+}
+
+.title {
+  height: 3.6rem;
+  color: white;
+  margin: 1rem;
+}
+
+.category-toggle {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.switchbutton {
+  display: flex;
+  justify-content: center;
+  padding: 10px 11px;
+  border: 0.1px solid rgb(255, 255, 255);
+  border-radius: 19px;
+  cursor: pointer;
+  background-color: #000000;
+  box-shadow: 1px 1px 10px white;
+  color: #f8f3f3;
+  font-size: 16px;
+}
+
+.Popular,
+.Top {
+  padding: 5px 10px;
+}
+
+.Popular.active {
+  background-color: #ff4b5c;
+  color: #fff;
+}
+
+.Top.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.tv-heading {
+  color: white;
+  font-size: xx-large;
+}
+
+.batch {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  width: 4.7rem;
+  position: absolute;
+}
+
+.detail-link-disable {
+  text-decoration: none;
+  transition: all ease-in 0.2s;
+}
+
+.detail-link-disable:hover {
+  text-decoration: none;
+  scale: 1.05;
+}

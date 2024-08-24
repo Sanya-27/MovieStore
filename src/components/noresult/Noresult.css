@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+  color: white;
+}
+
+.text {
+  font-size: xx-large;
+  font-weight: bold;
+  height: 80vh;
+}

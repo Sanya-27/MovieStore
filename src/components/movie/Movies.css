@@ -1,0 +1,130 @@
+.movies-container {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+.backdrop-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.backdrop-image {
+  width: 100%;
+  height: 80vh !important;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.backdrop-info {
+  position: absolute;
+  top: 23%;
+  left: 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.backdrop-info h1 {
+  font-size: 2em;
+}
+
+.backdrop-info p {
+  font-size: 1.2em;
+  max-width: 600px;
+}
+
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  box-shadow: 1px 1px 15px white;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 2rem;
+  width: 18rem;
+  color: white;
+  height: 27rem;
+  text-align: center;
+  background-color: #000000;
+  transition: all 0.5s ease;
+}
+
+.movie-card:hover {
+  box-shadow: 1px 1px 20px rgb(198, 217, 115);
+}
+
+.movie-poster {
+  border-radius: 8px;
+  height: 11rem;
+  object-fit: fill;
+  width: 100%;
+}
+
+.title {
+  height: 3.6rem;
+  color: white;
+  margin: 1rem;
+}
+
+.category-toggle {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.switchbutton {
+  display: flex;
+  justify-content: center;
+  padding: 10px 11px;
+  border: 0.1px solid rgb(255, 255, 255);
+  border-radius: 19px;
+  cursor: pointer;
+  background-color: #000000;
+  box-shadow: 1px 1px 10px white;
+  color: #f8f3f3;
+  font-size: 16px;
+}
+
+.Popular,
+.Top {
+  padding: 5px 10px;
+}
+
+.Popular.active {
+  background-color: #ff4b5c;
+  border-radius: 19px;
+
+  color: #fff;
+}
+
+.Top.active {
+  background-color: #374554;
+  border-radius: 19px;
+
+  color: #fff;
+}
+
+.movie-heading {
+  color: white;
+  font-size: xx-large;
+}
+
+.batch {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  width: 4.7rem;
+  position: absolute;
+}
+
+.detail-link-disable {
+  text-decoration: none;
+  transition: all ease-in 0.2s;
+}
+.detail-link-disable:hover {
+  text-decoration: none;
+  scale: 1.05;
+}
